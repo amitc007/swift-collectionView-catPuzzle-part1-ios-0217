@@ -1,0 +1,16 @@
+//Swift Collection View Cat Puzzle Part1 Lab
+//To Avoid reading problem with hints/partial solution
+
+1. SET UP THE  COLLECTION VIEW CONTROLLER IN INTERFACE BUILDER
+
+2. CREATE A SUBCLASS OF UICOLLECTIONVIEWCONTROLLER  NAME IT COLLECTIONVIEWCONTROLLER
+
+3. ADD THE REQUIRED DATASOURCE METHODS   - return 12 for items., name cell Identifier as “puzzleCell” ,  make background color purple.
+
+Build and run the application.
+
+4. ADD A SUBCLASS OF UICOLLECTIONVIEWCELL
+An image view could be added to the cell directly inside of collectionView(_:cellForItemAt:)but a better approach is to subclass a UICollectionViewCell. This way the subclass can handle all the functionality that only relates to the cell. This approach is more organized and scalable.
+
+Build and run the application. You should see 12 repeating cat pictures.
+
